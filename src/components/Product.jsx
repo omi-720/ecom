@@ -27,7 +27,7 @@ const Product = () => {
 
   return (
     <div>
-      <h1>Product Dashboard</h1>
+      <h1>Amazon Product Dashboard</h1>
       {status === "loading" && <p>Loading products...</p>}
       {status === "failed" && <p>Error: {error}</p>}
       {products.length === 0 && status === "succeeded" && (
